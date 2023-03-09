@@ -17,5 +17,7 @@
         "react"
     ],
     "rules": {
+        "non-used-vars":"warn",
+        "react/prop-types":"off"
     }
 }
