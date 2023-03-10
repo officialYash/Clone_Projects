@@ -1,12 +1,9 @@
 import React from 'react'
 import "./Add.scss"
-
 const Add = () => {
-  return 
-  (
+  return (
     <div className='add'>Add</div>
   )
 }
-
 
 export default Add
