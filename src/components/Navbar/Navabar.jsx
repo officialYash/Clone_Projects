@@ -79,9 +79,10 @@ const Navabar = () => {
             <Link className='link' to ="/">Life Style</Link>
 
 
-        </div>
-</>
-)}
+                </div>
+                <hr/>
+                </>
+             )}
         </div>
   )
 }

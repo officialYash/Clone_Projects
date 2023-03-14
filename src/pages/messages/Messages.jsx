@@ -1,8 +1,103 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "./Messages.scss"
+
 const Messages = () => {
+
+  const message = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+  maxime cum corporis esse aspernatur laborum dolorum? Animi
+  molestias aliquam, cum nesciunt, aut, ut quam vitae saepe repellat
+  nobis praesentium placeat.`;
+
+  const currentUser={
+    id:1,
+    username:"John Deo",
+    isSeller:true
+}
   return (
-    <div>Messages</div>
+    <div className='messages'>
+      <div className='container'>
+        <div className='title'>
+          <h1>Messages</h1>
+        </div>
+        <table>
+          <tr>
+            <th>Buyer</th>
+            <th>Last Message</th>
+            <th>Date</th>
+            <th>Action</th>
+          </tr>
+          <tr>
+            <td>
+            John Doe
+            </td>
+            <td>{message.substring(0,100)}</td>
+            <td>1 day ago</td>
+            <td>
+              <button>Mark as Read</button>
+            </td> 
+          </tr>
+          <tr>
+            <td>
+            John Doe
+            </td>
+            <td>{message.substring(0,100)}</td>
+            <td>1 day ago</td>
+            <td>
+              <button>Mark as Read</button>
+            </td>
+            
+          </tr>
+          <tr>
+            <td>
+            John Doe
+            </td>
+            <td>{message.substring(0,100)}</td>
+            <td>1 day ago</td>
+            <td>
+              <button>Mark as Read</button>
+            </td>
+            
+          </tr>
+          <tr>
+            <td>
+            John Doe
+            </td>
+            <td>{message.substring(0,100)}</td>
+            <td>1 day ago</td>
+            <td>
+              <button>Mark as Read</button>
+            </td>
+            
+          </tr>
+          <tr>
+            <td>
+            John Doe
+            </td>
+            <td>{message.substring(0,100)}</td>
+            <td>1 day ago</td>
+            <td>
+              <button>Mark as Read</button>
+            </td>
+            
+          </tr>
+          <tr>
+            <td>
+            John Doe
+            </td>
+            <td>{message.substring(0,100)}</td>
+            <td>1 day ago</td>
+            <td>
+              <button>Mark as Read</button>
+            </td>
+            
+          </tr>
+
+          
+        </table>
+
+      </div>
+    </div>
   )
 }
 
